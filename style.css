@@ -1,0 +1,170 @@
+body {
+	background: #1A1A1A;
+}
+
+.box {
+	margin:10px;
+}
+
+.vex {
+      display: flex;
+      align-items: center; /* Подставьте другое значение и посмотрите результат */
+      width: 90%;
+      }
+
+.logo_text {
+
+	width: 736px;
+	height: 162px;
+    margin: 0px;
+    padding: 5px 5px 5px;
+    text-align: center;
+    font-size: 35px;
+
+      }
+
+.logo {
+
+	width: 287px;
+	height: 166px;
+
+    padding: 5px 0;
+    margin: 5px;
+    text-align: center;
+    font-size: 35px;
+
+}
+
+
+.d1 {
+	display: flex;
+    align-items: center; /* Подставьте другое значение и посмотрите результат */
+      }
+
+.d2 {
+	display: flex;
+    align-items: center; /* Подставьте другое значение и посмотрите результат */
+      }
+
+.d3 {
+	display: flex;
+    align-items: center; /* Подставьте другое значение и посмотрите результат */
+}
+
+.d1 > div {
+	width: 460px;
+	height: 560px;
+    padding: 30px 25px 0px;
+    margin: 5px;
+    background-color: white;
+    text-align: center;
+    font-size: 35px;
+}
+
+.d1 > a {
+	width: 460px;
+	height: 560px;
+    padding: 30px 25px 0px;
+    margin: 5px;
+    background-color: white;
+    text-align: center;
+    font-size: 35px;
+}
+
+.d2 > div {
+	width: 460px;
+	height: 560px;
+    padding: 30px 25px 0px;
+    margin: 5px;
+    background-color: white;
+    text-align: center;
+    font-size: 35px;
+}
+
+.d2 > a {
+	width: 460px;
+	height: 560px;
+    padding: 30px 25px 0px;
+    margin: 5px;
+    background-color: white;
+    text-align: center;
+    font-size: 35px;
+}
+
+.d3 > div {
+	width: 460px;
+	height: 560px;
+    padding: 30px 25px 0px;
+    margin: 5px;
+    background-color: white;
+    text-align: center;
+    font-size: 35px;
+}
+
+.d3 > a {
+	width: 460px;
+	height: 560px;
+    padding: 30px 25px 0px;
+    margin: 5px;
+    background-color: white;
+    text-align: center;
+    font-size: 35px;
+}
+
+a:active, /* активная/посещенная ссылка */
+a:hover,  /* при наведении */
+a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+img {
+	margin-bottom: 30px;
+}
+
+.text {
+	margin-bottom: 30px;
+}
+
+@font-face {
+  font-family: "Benzin-Bold"; 
+  src: local(Benzin), url(resurs/font/benzin/Benzin-Bold.woff); 
+  font-family: "Benzin";
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Benzin"; 
+  src: local(Benzin-Regular), url(resurs/font/benzin/Benzin-Regular.woff); 
+  font-family: "Benzin";
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.red {
+	font-family: "Benzin";
+	font-weight: bold;
+	color:red;
+	font-size: 50px;
+	margin:0px;
+}
+
+p {
+	font-family: "Benzin";
+	font-style: normal;
+	font-weight: normal;
+	color: white;
+	margin: 0px;
+}
+
+.name {
+	font-family: "Benzin";
+	font-weight: bold;
+	color:#1a1a1a;
+}
+
+.no {
+	font-size: 15px;
+}
